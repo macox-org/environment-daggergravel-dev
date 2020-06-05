@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:daggergravel/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:daggergravel/pipelineUser:token
+  username: cb-cloud-native-ci-cd-play[bot]
+prow:
+  hmacToken: vault:daggergravel/prow:hmacToken
+segmentWriteKey: vault:daggergravel:segmentWriteKey
